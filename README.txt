@@ -19,17 +19,22 @@ and the files in this area, git already manages them and knows their version his
 'commit' --> commit is a particular version of the project. It captures a snapshot of the project's staged changed and creates a version out of it.
 
 'git commit' --> applies commit
+** use git commit -m "comment" -> if you dont want to open vim/nano editor and want to directly commit
+
 
 git log --> lists down all the commits of the Repository. if you waant
 to get out of the git log press q
 
- git restore <file> --> it removes all the changes 
-
-
+git restore <file> --> it removes all the changes 
 
 ** after commiting the changes you make in the repo, you have to use git add <file> in order to move the changes from working to staging area and 
 now when you use git restore <file> it wont delete anything
 
+
+git restore --staged <file> --> it removes file changes from the staging area to thw wworking area.
+this only works if changes are in staging area
+
+diff bw git rm and git restore --> if you want to play bw working and staging area than you use restore but we use rm if want to remove the whole file in untracked files meaning 
 
 
 
