@@ -17,3 +17,28 @@ and the files in this area, git already manages them and knows their version his
 'git rm --cached <file>'--> moves file from staging to working area
 
 'commit' --> commit is a particular version of the project. It captures a snapshot of the project's staged changed and creates a version out of it.
+
+'git commit' --> applies commit
+
+git log --> lists down all the commits of the Repository. if you waant
+to get out of the git log press q
+
+ git restore <file> --> it removes all the changes 
+
+
+
+** after commiting the changes you make in the repo, you have to use git add <file> in order to move the changes from working to staging area and 
+now when you use git restore <file> it wont delete anything
+
+
+
+
+
+
+
+
+
+
+
+
+
