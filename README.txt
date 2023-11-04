@@ -1,0 +1,19 @@
+
+"git init" --> powers your folder to be managed by git, and initialises a new empty repo. 
+It also creates a .git folder that has all the relevant logic to manage versions of your project.
+
+"Working Area" -> there can be a bunch of files that are not currently handled by git
+IT means that changes done or to be done in those files are not managed by git. A file which is in working 
+area is considered to be not in staging area. When we er do "git status"
+and we see abunch if 'untracked files' than these are actually called to be in the working area.
+
+"Staging Area" -> what all files are going to be part of the next version that we will create.
+This staging area is the place where git knows what changes will be done from the last version to the next version.
+
+"Repository Area" --> this area actually contains the details of all your previous registered versions 
+and the files in this area, git already manages them and knows their version history.
+
+'git add <file>'--> moves file from working area to staging area
+'git rm --cached <file>'--> moves file from staging to working area
+
+'commit' --> commit is a particular version of the project. It captures a snapshot of the project's staged changed and creates a version out of it.
