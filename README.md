@@ -37,7 +37,7 @@ this only works if changes are in staging area
 **diff bw git rm and git restore --> if you want to play bw working and staging area than you use restore but we use rm if want to remove the whole file in untracked files meaning 
 
 
-11. "git remote add <name of remote> <link of the relevant" -->  this command helps us to add a new link to the remote repo 
+11. "git remote add <name of remote> <link of the relevant>" -->  this command helps us to add a new link to the remote repo 
 and give a name to it
 
 12. "git remote rm <name of remote>" --> this command deletes a remote connection
@@ -49,10 +49,15 @@ and give a name to it
 
 14. "git add <file1> <file2> <file3> --> this command will add multiple file changes together to the staging area
 
+15. "git add ." --> this command add all files from working repo to the staging area
 
-"git add."
+16. "git pull <remote name> <branch name>" --> downloads latest changes from the branch of the remote repo in your local repo
 
+### RECOMMENDED PRACTICE TO DO
+- make changes
+- git add <file>
+- git commit
+- git pull
+- git push
 
-
-
-
+beacuse if you have some changes in working/staging directory and you use git pull it will show error, so you have to first commit your changes and than pull
